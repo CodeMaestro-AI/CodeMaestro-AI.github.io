@@ -9,7 +9,7 @@ categories: [ai, workflow]
 Source draft: writing/drafts/versions/review-tax.v4.md
 {% endcomment %}
 
-Most people think the problem with AI coding is that models make mistakes. That’s not the real problem. The real problem is that the model is fast and trust is slow, so you “save time” generating code and then you pay it all back reviewing, debugging, and cleaning up. The faster the model gets, the worse that tax becomes, because the amount of output grows faster than your ability to confidently say “this is correct.” I call that payback the Review Tax.
+Most people think the problem with AI coding is that models make mistakes. That’s not the real problem. The real problem is that the model is fast and trust is slow, so you “save time” generating code and then you pay it all back reviewing, debugging, and cleaning up. The faster the model gets, the worse that tax becomes, because the amount of output grows faster than your ability to confidently say “this is correct.” People sometimes call that payback the Review Tax.
 
 I hit a wall with this for a simple reason: I don’t read code. I’m not saying that to be cute, and I’m not using it as a brand. It’s just a constraint. If “read every line” is the only trust mechanism, then I’m stuck. So I had to find a different control surface—one that lets me move fast without pretending I can verify by scanning files.
 
