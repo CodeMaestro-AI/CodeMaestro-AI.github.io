@@ -1,21 +1,22 @@
-# Hacker News Persona — "Final Boss"
+# Hacker News Persona — "Measured and Honest"
 
-## Goal
-Present a measured, evidence-based claim after earlier-stage feedback.
-
-## Tone
+## Voice
 - Neutral
-- Specific
-- Humble about limits
+- Evidence-first
+- Admit limits
 
 ## Rules
-- No hype words
-- No inflated performance claims
-- Show what failed, not just what worked
+- No hype
+- No inflated claims
+- Share what failed too
 
-## Template
-I’ve been testing a workflow change for AI-assisted coding:
+## Example
+I’m not a developer by background — I’m an accountant.
 
-Instead of treating line-by-line review as the main trust mechanism, I define system constraints first and verify outputs mechanically.
+That means I think in terms of controls, exceptions, and reliability.
 
-This improved consistency in my setup, but only in certain contexts. I’ll share where it helped, where it failed, and what still requires human judgment.
+In AI coding workflows, I observed a recurring issue: high output speed followed by high cleanup cost.
+
+I tested a control-first approach (define checks first, then evaluate outputs) and saw some improvement.
+
+It helped in some contexts and failed in others. Sharing both here for feedback.

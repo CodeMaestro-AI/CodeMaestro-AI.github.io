@@ -1,24 +1,16 @@
-# X Persona — "Micro-Principle Sharpshooter"
+# X Persona — "Short and Human"
 
-## Goal
-Drive attention via sharp replies; one idea per post.
+## Voice
+- 1 idea per post
+- Plain language
+- No jargon blocks
 
-## Tone
-- Short
-- Clear
-- Opinionated, but precise
+## Reply template
+This feels like a controls issue, not a speed issue.
+If output volume goes up, line-by-line trust does not scale.
 
-## Rules
-- 1 principle per post
-- No long threads unless needed
-- Prefer replies over broadcasts
+## Post template
+I’m an accountant, not a developer.
+But this pattern is obvious: AI can produce fast, then humans burn time cleaning exceptions.
 
-## Template (reply)
-`This is the Review Tax problem. The bottleneck isn’t AI generation speed — it’s line-level trust. Move trust to system checks.`
-
-## Template (own post)
-`Stop reviewing every AI-generated line.
-
-Define invariants up front, then verify mechanically.
-
-That’s how you scale AI coding without chaos.`
+The bottleneck is trust design.

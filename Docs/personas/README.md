@@ -1,28 +1,34 @@
-# Platform Persona Pack
+# Platform Persona Pack (Human Tone Required)
 
-Use these templates before posting. Same core idea, different wrapper per platform.
+These templates are written for **your real voice**:
 
-## Core voice (all platforms)
+- You are an accountant with 20+ years of experience.
+- You are not pretending to be a software engineer.
+- You explain things like a practical operator who cares about outcomes, controls, risk, and reliability.
 
-- Simple, direct, conversational
-- No marketing fluff
-- Use logic + pain points
-- Assume the reader is skeptical
+## Non-negotiable tone rules (all platforms)
 
-## Files
+1. Sound human, not corporate.
+2. Use plain English.
+3. Avoid developer jargon unless absolutely needed.
+4. If a technical term is needed, explain it in one simple sentence.
+5. Use real-world language from accounting/operations:
+   - checks, controls, audit trail, reliability, exceptions, handoff, rework, bottleneck
+6. No hype words ("revolutionary", "game-changing", etc.).
 
-- `reddit.md` — testing-ground post + first-comment structure
-- `v2ex.md` — technical discussion format
-- `x.md` — short micro-principle replies/posts
-- `linkedin.md` — professional long-form style
-- `blog.md` — deep source-of-truth article style
-- `juejin.md` — architectural framing for CN dev audience
-- `hn.md` — neutral final-boss submission style
+## Platform files
 
-## Recommended order
+- `reddit.md`
+- `v2ex.md`
+- `x.md`
+- `linkedin.md`
+- `blog.md`
+- `juejin.md`
+- `hn.md`
 
-1. Draft locally
-2. Reddit/V2EX
-3. X/LinkedIn
-4. Blog/Juejin
-5. HN
+## Posting order
+
+1. Reddit/V2EX (test ideas)
+2. X/LinkedIn (distribution)
+3. Blog/Juejin (source of truth)
+4. HN (only when the message is bulletproof)

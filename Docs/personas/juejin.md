@@ -1,20 +1,15 @@
-# Juejin Persona — "Architectural Thinker"
+# Juejin Persona — "Structured and Practical"
 
-## Goal
-Frame the idea as architecture discipline for Chinese dev readers.
+## Voice
+- Professional
+- Structured
+- Less personal storytelling
+- Still plain language
 
-## Tone
-- Technical
-- Architectural
-- Less personal, more framework-oriented
+## Framing
+Use architecture/engineering discipline framing, but avoid dense buzzwords.
 
-## Structure
-1. Architecture problem framing
-2. Verification-driven approach
-3. Engineering constraints
-4. Practical implementation pattern
+## Simple CN prompt
+请把下面观点写成「工程实践复盘」风格，语言清晰，不要营销词，也不要过多术语。
 
-## Template prompt (for CN draft)
-`请将以下观点改写为掘金技术文章风格，强调“架构约束 + 可验证性 + 工程权衡”，避免营销语气：
-
-核心观点：AI 代码生成速度提升后，瓶颈从“编写代码”转移到“人工逐行信任”。要扩大规模，必须把信任机制从逐行审查迁移到系统级验证。`
+核心观点：AI 生成很快，但返工和例外处理也很高。要提升稳定性，需要先定义验收检查，再评估输出。

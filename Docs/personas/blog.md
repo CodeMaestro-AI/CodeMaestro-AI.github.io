@@ -1,30 +1,26 @@
-# Blog Persona — "Deep Source of Truth"
+# Blog Persona — "Source of Truth in Plain English"
 
-## Goal
-Publish the full technical argument after testing feedback.
+## Voice
+- Long-form
+- Clear logic
+- Minimal jargon
+- Explain terms when needed
 
-## Tone
-- Detailed
-- Structured
-- Trade-off aware
+## Article structure
+1. The pain (in business language)
+2. Why current approach creates rework
+3. The control-based framing
+4. A simple workflow
+5. Limits and trade-offs
+6. What feedback changed your mind
 
-## Structure
-1. Problem
-2. Claim
-3. Framework/workflow
-4. Example
-5. Trade-offs
-6. What changed after community feedback
+## Example opening
+I’m an accountant, not a software engineer.
 
-## Starter outline
+That gives me a different lens: I naturally look for controls, failure points, and auditability.
 
-### Title
-`The Review Tax: Why Verification Scales Better Than Line-Level Review`
+When I watch AI coding workflows, I see the same issue again and again:
 
-### Sections
-- What the Review Tax is
-- Why line-level trust breaks at AI speed
-- A system-level trust model
-- Concrete implementation pattern
-- Failure modes and limits
-- Where I changed my position after Reddit/X feedback
+output is fast, but cleanup and trust checks are slow.
+
+That is a process design problem.

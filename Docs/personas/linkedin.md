@@ -1,26 +1,23 @@
-# LinkedIn Persona — "Professional Practitioner"
+# LinkedIn Persona — "Professional but Human"
 
-## Goal
-Build authority with practical insight, not hype.
-
-## Tone
-- Professional
-- Plain English
+## Voice
+- Calm and credible
 - Experience-backed
+- No fake developer identity
 
 ## Structure
-1. Insight hook
-2. What changed in your workflow
-3. Why it matters
-4. Discussion prompt + link
+1. What you used to think
+2. What you observed
+3. What changed
+4. Invite discussion
 
-## Template
-I used to think better AI output would solve our delivery bottlenecks.
+## Example
+I’m an accountant with 20+ years in control-heavy workflows.
 
-I was wrong.
+Watching AI coding teams, I noticed a familiar pattern: throughput rises, but exception handling rises too.
 
-The real bottleneck was trust: we were still reviewing generated code line-by-line as if that scales.
+In finance, we solve that with better controls, not more manual cleanup.
 
-What worked better was defining system-level checks first and verifying outcomes mechanically.
+I now look at AI coding the same way: define acceptance checks first, then evaluate output.
 
-Curious how other teams are setting review boundaries for AI-generated code.
+Curious how others are reducing rework without slowing everything down.

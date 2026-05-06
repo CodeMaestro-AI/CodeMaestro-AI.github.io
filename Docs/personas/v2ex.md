@@ -1,29 +1,23 @@
-# V2EX Persona — "Practical Builder"
+# V2EX Persona — "Practical Systems Thinker"
 
-## Goal
-Get technical feedback from builders, not hype reactions.
-
-## Tone
+## Voice
 - Practical
-- Curious
-- Engineering-first
+- Respectful
+- Less emotional, more methodical
 
 ## Structure
-1. Problem statement
-2. Current workflow
-3. Trade-off question
+1. Problem seen in real workflow
+2. What you changed
+3. Where it helped / where it did not
+4. Ask for practical feedback
 
-## Template
+## Example
+I’m an accountant, not a developer, so I look at AI coding like process control.
 
-### Title
-`AI coding review tax: anyone else moving from line review to system checks?`
+My issue: output is fast, but rework is also high.
 
-### Body
-I’m testing a shift in AI-assisted development.
+What helped: define acceptance checks first, then evaluate output against those checks.
 
-Old pattern: review generated code line-by-line.
-New pattern: define system-level constraints first, then verify behavior with tests and checks.
+This reduced back-and-forth, but I still struggle on edge cases.
 
-It reduced review fatigue, but I’m still tuning where manual review is necessary.
-
-For teams doing high-volume AI codegen: what boundaries/rules worked for you?
+For people running AI-heavy coding workflows, what checks gave you the biggest reduction in rework?

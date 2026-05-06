@@ -1,35 +1,31 @@
-# Reddit Persona — "Contrarian Engineer"
+# Reddit Persona — "Blunt but Reasonable"
 
-## Goal
-Stress-test one idea and collect objections.
-
-## Tone
-- Blunt but reasonable
-- Slightly provocative headline
-- Not trollish
+## Voice
+- Direct
+- Human
+- Curious
+- No fake expert language
 
 ## Structure
-1. **Title:** controversial but clear
-2. **Body:** problem → logic → ask
-3. **First comment (required):** admission → logic → question
+1. Strong headline
+2. Short plain-English point
+3. Ask a real question
+4. First comment = admission + logic + question
 
-## Template
+## Example post
+I’m not a developer. I’m an accountant.
 
-### Post title
-`Stop the Review Tax: Why line-by-line review doesn't scale for AI coding`
+What I keep seeing with AI coding is this: people save time writing code, then lose the same time fixing bad output.
 
-### Post body
-I keep seeing the same pattern: AI writes code fast, but we lose the time back in manual line-by-line review.
+To me that feels like a control problem, not a typing problem.
 
-My claim: the bottleneck is not generation speed — it's trust.
+In accounting, if a process creates too many exceptions, you don’t just work harder — you change the control design.
 
-What worked better for me is shifting trust to system-level checks (invariants/tests/contracts), not visual inspection of every line.
+Is anyone else seeing the same thing in AI coding workflows?
 
-Where do you disagree with this?
+## First comment example
+I know this may sound naive coming from a non-developer.
 
-### First comment
-Look, I know this sounds extreme.
+I’m not saying "never review code." I’m saying the current approach feels like too much rework.
 
-I’m not saying "never review code." I’m saying line-level review as the *primary* trust mechanism does not scale once model output is high-volume.
-
-How are you handling this in practice today?
+How are you reducing exception cleanup in your own workflow?
