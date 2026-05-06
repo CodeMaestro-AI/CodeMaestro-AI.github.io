@@ -108,22 +108,30 @@ body {
 }
 
 /* Footer cleanup: keep it minimal and reduce visual clutter */
-.site-footer .contact-list,
-.site-footer .social-media-list {
-  display: none;
-}
-
-.footer-col-2 {
+.site-footer .contact-list {
   display: none;
 }
 
 .footer-col-1 {
-  width: 100%;
+  width: 55%;
   margin-bottom: 8px;
+}
+
+.footer-col-2 {
+  width: 45%;
 }
 
 .footer-col-3 {
   width: 100%;
+}
+
+.social-media-list li {
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.social-media-list li:last-child {
+  margin-right: 0;
 }
 
 .footer-col-wrapper {
@@ -144,5 +152,11 @@ body {
 
   .hero-summary {
     font-size: 18px;
+  }
+
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3 {
+    width: 100%;
   }
 }

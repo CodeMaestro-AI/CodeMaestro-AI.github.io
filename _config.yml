@@ -14,7 +14,18 @@ plugins:
 
 minima:
   skin: auto
+  social_links:
+    twitter: wang4701364
+    linkedin: lwaccounting
+    github: CodeMaestro-AI
+
+social:
+  links:
+    - https://x.com/wang4701364
+    - https://www.linkedin.com/in/lwaccounting/
+    - https://github.com/CodeMaestro-AI
 
 author: "Lei Wang"
 
 github_username: "CodeMaestro-AI"
+twitter_username: "wang4701364"
