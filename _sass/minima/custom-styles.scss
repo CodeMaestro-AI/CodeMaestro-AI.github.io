@@ -107,6 +107,25 @@ body {
   font-weight: 700;
 }
 
+/* Footer cleanup: keep it minimal and reduce visual clutter */
+.site-footer .contact-list,
+.site-footer .social-media-list {
+  display: none;
+}
+
+.footer-col-2 {
+  display: none;
+}
+
+.footer-col-1 {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.footer-col-3 {
+  width: 100%;
+}
+
 .contact-list,
 .social-media-list {
   color: var(--cm-muted);
