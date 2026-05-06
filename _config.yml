@@ -1,0 +1,22 @@
+title: "CodeMaestro — AI Coding Philosophy"
+description: "Philosophies on AI coding: verification over review, system-level trust, and the governance loop."
+url: "https://CodeMaestro-AI.github.io"
+baseurl: ""
+
+# Clean post URLs that work well for social sharing.
+permalink: /:slug/
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+minima:
+  skin: auto
+
+author:
+  name: "Lei Wang"
+  email: ""
+
+github_username: "CodeMaestro-AI"
