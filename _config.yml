@@ -15,8 +15,6 @@ plugins:
 minima:
   skin: auto
 
-author:
-  name: "Lei Wang"
-  email: ""
+author: "Lei Wang"
 
 github_username: "CodeMaestro-AI"

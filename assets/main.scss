@@ -1,0 +1,140 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --cm-text: #171717;
+  --cm-muted: #666;
+  --cm-border: #e8e8e8;
+  --cm-accent: #2457d6;
+  --cm-bg-soft: #f7f8fb;
+}
+
+body {
+  color: var(--cm-text);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.site-header {
+  border-top: 4px solid var(--cm-text);
+  border-bottom: 1px solid var(--cm-border);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--cm-text);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.site-nav .page-link {
+  color: var(--cm-text);
+  font-size: 16px;
+}
+
+.page-content {
+  padding: 56px 0 72px;
+}
+
+.post-title,
+.post-content h1,
+.hero h1 {
+  font-size: 46px;
+  line-height: 1.08;
+  letter-spacing: -0.05em;
+  font-weight: 750;
+}
+
+.post-title {
+  margin-bottom: 22px;
+}
+
+.hero {
+  padding: 44px 0 34px;
+  margin-bottom: 34px;
+  border-bottom: 1px solid var(--cm-border);
+}
+
+.hero .eyebrow {
+  color: var(--cm-accent);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  max-width: 760px;
+  margin-bottom: 18px;
+}
+
+.hero-summary {
+  max-width: 760px;
+  color: var(--cm-muted);
+  font-size: 21px;
+  line-height: 1.55;
+}
+
+.post-list-heading {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.post-list h3 {
+  margin-bottom: 4px;
+}
+
+.post-link {
+  color: var(--cm-text);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.post-meta {
+  color: var(--cm-muted);
+}
+
+.site-footer {
+  border-top: 1px solid var(--cm-border);
+  background: var(--cm-bg-soft);
+  padding: 34px 0;
+}
+
+.footer-heading {
+  color: var(--cm-text);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contact-list,
+.social-media-list {
+  color: var(--cm-muted);
+  font-size: 15px;
+}
+
+.footer-col-wrapper {
+  color: var(--cm-muted);
+}
+
+@media screen and (max-width: 600px) {
+  .site-title,
+  .site-title:visited {
+    font-size: 24px;
+  }
+
+  .post-title,
+  .post-content h1,
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero-summary {
+    font-size: 18px;
+  }
+}
