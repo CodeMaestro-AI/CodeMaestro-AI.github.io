@@ -126,12 +126,6 @@ body {
   width: 100%;
 }
 
-.contact-list,
-.social-media-list {
-  color: var(--cm-muted);
-  font-size: 15px;
-}
-
 .footer-col-wrapper {
   color: var(--cm-muted);
 }
