@@ -47,7 +47,7 @@ Then I translate that memo into a small list of invariants. An invariant is a ru
 
 Then I enforce gates that return pass/fail. Tests, assertions, static checks, permission boundaries, golden-file comparisons—anything is fine as long as the output is not “looks good.” It has to be evidence. If the gate fails, the work is not done. The loop becomes straightforward: fix the failure, re-run the gate, repeat until it passes.
 
-That is how I get speed without pretending I can review code.
+That is how I get speed without needing to review code.
 
 ## The strongest objection (and it’s valid)
 
