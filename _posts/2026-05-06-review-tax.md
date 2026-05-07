@@ -17,9 +17,17 @@ Here’s the shift: I stopped trying to trust the output, and I started trying t
 
 ## The moment it clicked
 
-I recently ran what would normally be a multi-day sprint for a professional developer. The model itself estimated 6–12 days. I got through it in a few hours. If I tried to “be responsible” by reading everything it produced, I would have erased the speedup immediately—not because I’m lazy, but because review doesn’t scale when the output is huge, and because most of the time you’re not just looking for bugs, you’re trying to reconstruct intent.
+I recently ran what would normally be a multi-day sprint for a professional developer. The model itself estimated 6–12 days. I got through it in a few hours. This shift helped me move roughly 20x faster. If I tried to “be responsible” by reading everything it produced, I would have erased the speedup immediately—not because I’m lazy, but because review doesn’t scale when the output is huge, and because most of the time you’re not just looking for bugs, you’re trying to reconstruct intent.
 
 So I didn’t review the way people expect. I verified at a higher level. I stopped verifying the lines and started verifying the system.
+
+That distinction matters because review is not one thing. It has levels:
+
+- **Line-level review** asks: does this code look right?
+- **Behavior-level review** asks: does it do what the user wanted?
+- **Architecture-level review** asks: did it do that without damaging the system?
+
+My point is not that line-level review is useless. It is that line-level review stops scaling as the primary control when AI can generate large changes quickly. The control has to move up: define the behavior, define what must not change, and require evidence that those things still hold.
 
 ## The default workflow doesn’t scale
 
@@ -47,7 +55,9 @@ The strongest pushback is: “Most failures aren’t syntax. The code runs, but 
 
 ## Limits (especially if you can’t read code)
 
-Invariants only catch what you wrote down. They won’t catch what you forgot. And some issues are hard to encode: performance regressions, security problems, long-term maintainability. So if you can’t read code, you need a policy for evidence. I ask the agent for artifacts I can actually verify: test output, invariant pass/fail reports, logs that demonstrate key flows, and a short “what changed and why” summary in plain English. I also keep changes small and scoped, I make risky rules fail closed, and if something is mission-critical I narrow the surface area until a developer can review it quickly. That’s not a failure; that’s governance.
+Invariants only catch what you wrote down. They won’t catch what you forgot. And some issues are hard to encode: performance regressions, security problems, long-term maintainability. So if you can’t read code, you need a policy for evidence. I ask the agent for artifacts I can actually verify: test output, invariant pass/fail reports, logs that demonstrate key flows, and a short “what changed and why” summary in plain English. I also keep changes small and scoped, I make risky rules fail closed, and if something is mission-critical I narrow the surface area until the AI can work in small, verifiable steps with stronger gates around each one. That’s not a failure; that’s governance.
+
+This is also why I think the workflow is probably easier for a real programmer, not harder. A programmer can quickly identify the occasions where debugging is required. That makes it much easier to spot the truly tricky situations too—especially architectural drift, which is one of the hardest things for a non-coder to detect.
 
 ## What I changed after trying to explain this
 
