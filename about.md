@@ -10,3 +10,4 @@ You can find me here:
 
 - X: [@wang4701364](https://x.com/wang4701364)
 - LinkedIn: [linkedin.com/in/lwaccounting](https://www.linkedin.com/in/lwaccounting/)
+- CodeMaestro Alpha: [github.com/CodeMaestro-AI/CodeMaestro](https://github.com/CodeMaestro-AI/CodeMaestro)

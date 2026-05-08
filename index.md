@@ -13,5 +13,7 @@ layout: home
     <a href="https://x.com/wang4701364" target="_blank" rel="noopener">X</a>
     ·
     <a href="https://www.linkedin.com/in/lwaccounting/" target="_blank" rel="noopener">LinkedIn</a>
+    ·
+    <a href="https://github.com/CodeMaestro-AI/CodeMaestro" target="_blank" rel="noopener">CodeMaestro Alpha</a>
   </p>
 </section>
